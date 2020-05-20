@@ -1,7 +1,7 @@
 package application;
 
 /**
- * JavaFX Bidirectional Binder
+ * JavaFX Bidirectional Binder: progress indicator
  * @author feBueno - May 2020
  * 
  * REQUIRED:
