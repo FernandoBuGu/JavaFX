@@ -1,5 +1,18 @@
 package application;
-	
+
+/**
+ * Files Browser, for instance to get full path or file size
+ * @author feBueno - May 2020
+ * 
+ * REQUIRED:
+ * JavaFX - SceneBuilder setup
+ * REQUIRED IN SAME PACKAGE:
+ * Modal.java
+ * MainController.java
+ * Main.fxml
+ * applications.css
+ */
+
 import javafx.application.Application;
 import javafx.fxml.FXMLLoader;
 import javafx.stage.Stage;
