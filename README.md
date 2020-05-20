@@ -1,5 +1,5 @@
 # JavaFX_apps
-JavaFX applications examples: calculator, login, files browser...
+Simple JavaFX applications: calculator, login, files browser, progress indicator...
 
 Each folder is an application. Inside each application, there is a Main.java file that can be exected, 
 for instance in Eclipse, and the application will popup in a new window. 
