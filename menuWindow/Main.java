@@ -1,7 +1,7 @@
 package application;
 	
 /**
- * JavaFX, displaying menu window and its actions
+ * JavaFX, displaying menu window and setting actions
  * ....
  * 
  * @author feBueno - May 2020
