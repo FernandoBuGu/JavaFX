@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="300.0" prefWidth="300.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.MainController">
+   <children>
+      <TableView fx:id="geneTable" layoutX="26.0" layoutY="32.0" prefHeight="500.0" prefWidth="500.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+         <columns>
+            <TableColumn fx:id="exons" prefWidth="75.0" text="exons" />
+            <TableColumn fx:id="hgnc" prefWidth="75.0" text="hgnc" />
+            <TableColumn fx:id="ensembl" prefWidth="75.0" text="ensembl" />
+         </columns>
+      </TableView>
+   </children>
+</AnchorPane>
