@@ -8,8 +8,9 @@ In most cases, interaction with the application will print text in the (i.e. Ecl
 The other files within the folder need to be within the same package as Main.java, 
 except for the folder "img" that should be a diferent package within the same JavaFX project.
 
-May have to add this to RunConfiguration/Arguments/VM:
+
+If run in an IDE, the following may have to be added to VM arguments (i.e. in Eclipse in Run configurations):
 
 --module-path /usr/share/java/openjfx-11.0.2_linux-x64_bin-sdk/javafx-sdk-11.0.2/lib --add-modules javafx.controls,javafx.fxml
 
-where --module-path should be the path to your java lib folder
+where --module-path should be the path to the java lib folder in the machine
